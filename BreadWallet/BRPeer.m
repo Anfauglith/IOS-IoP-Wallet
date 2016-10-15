@@ -275,7 +275,10 @@ services:(uint64_t)services
 
         [self.outputBuffer appendMessage:message type:type];
         
-        while (self.outputBuffer.length > 0 && self.outputStream.hasSpaceAvailable) {
+        
+        bool hasSpaceAvailable = self.outputStream.hasSpaceAvailable;
+        
+        while (self.outputBuffer.length > 0 && hasSpaceAvailable) {
             NSInteger l = [self.outputStream write:self.outputBuffer.bytes maxLength:self.outputBuffer.length];
 
             if (l > 0) [self.outputBuffer replaceBytesInRange:NSMakeRange(0, l) withBytes:NULL length:0];

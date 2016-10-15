@@ -244,6 +244,12 @@ CFAllocatorRef SecureAllocator()
     [self appendBytes:message.bytes length:message.length];
 }
 
+// Prueba Mati
+//int readHeader(){
+//    return self.mutableBytes;
+//}
+
+
 - (void)appendNullPaddedString:(NSString *)s length:(NSUInteger)length
 {
     NSUInteger l = [s lengthOfBytesUsingEncoding:NSUTF8StringEncoding];
