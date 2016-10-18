@@ -34,7 +34,7 @@
 #import "NSString+Bitcoin.h"
 #import "NSData+Bitcoin.h"
 #import "BREventManager.h"
-#import "breadwallet-Swift.h"
+#import "IoPwallet-Swift.h"
 #import <WebKit/WebKit.h>
 
 #define TRANSACTION_CELL_HEIGHT 75

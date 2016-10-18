@@ -37,7 +37,7 @@
 #import "NSData+Bitcoin.h"
 #import "NSManagedObject+Sugar.h"
 #import "BREventManager.h"
-#import "breadwallet-Swift.h"
+#import "IoPwallet-Swift.h"
 #import <netdb.h>
 
 #if ! PEER_LOGGING
