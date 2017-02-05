@@ -89,7 +89,7 @@
 "Bitcoin address" = "Биткойн-адрес";
 
 /* No comment provided by engineer. */
-"Bitcoin addresses can also be copied to the clipboard. A bitcoin address always starts with '1' or '3'." = "Адреса Bitcoin также могут быть скопированы в буфер обмена. Bitcoin-адрес всегда начинается с «1» или «3».";
+"IoP addresses can also be copied to the clipboard. A IoP address always starts with 'p'." = "Адреса Bitcoin также могут быть скопированы в буфер обмена. Bitcoin-адрес всегда начинается с «1» или «3».";
 
 /* No comment provided by engineer. */
 "bitcoin network fee" = "комиссия сети bitcoin";
@@ -179,10 +179,10 @@
 "current wallet passcode" = "текущий пароль";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins)." = "БЕЗОПАСНОСТЬ УСТРОЙСТВА ПОД УГРОЗОЙ\nЛюбое «jailbreak» приложение может получить доступ к вашим приватным ключам (и украсть ваши bitcoins).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs)." = "БЕЗОПАСНОСТЬ УСТРОЙСТВА ПОД УГРОЗОЙ\nЛюбое «jailbreak» приложение может получить доступ к вашим приватным ключам (и украсть ваши IoPs).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins). Wipe this wallet immediately and restore on a secure device." = "БЕЗОПАСНОСТЬ УСТРОЙСТВА ПОД УГРОЗОЙ\nЛюбое «jailbreak» приложение может получить доступ к вашим приватным ключам (и украсть ваши bitcoins). Немедленно удалите этот кошелёк и восстановите его в безопасном месте.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs). Wipe this wallet immediately and restore on a secure device." = "БЕЗОПАСНОСТЬ УСТРОЙСТВА ПОД УГРОЗОЙ\nЛюбое «jailbreak» приложение может получить доступ к вашим приватным ключам (и украсть ваши IoPs). Немедленно удалите этот кошелёк и восстановите его в безопасном месте.";
 
 /* No comment provided by engineer. */
 "do it later" = "отложить на потом";

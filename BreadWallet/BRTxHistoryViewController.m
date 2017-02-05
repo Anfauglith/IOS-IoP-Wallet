@@ -261,15 +261,16 @@ static NSString *dateFormat(NSString *template)
     if (_buyController) {
         return _buyController;
     }
-    if ([WKWebView class] && [[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsBuyBitcoin]) { // only available on iOS 8 and above
+    if(false){
+    //if ([WKWebView class] && [[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsBuyBitcoin]) { // only available on iOS 8 and above
 #if DEBUG
         _buyController = [[BRWebViewController alloc] initWithBundleName:@"bread-buy-staging" mountPoint:@"/buy"];
         //        self.buyController.debugEndpoint = @"http://localhost:8080";
 #else
         _buyController = [[BRWebViewController alloc] initWithBundleName:@"bread-buy" mountPoint:@"/buy"];
 #endif
-        [_buyController startServer];
-        [_buyController preload];
+        //[_buyController startServer];
+        //[_buyController preload];
     }
     return _buyController;
 }
@@ -446,7 +447,7 @@ static NSString *dateFormat(NSString *template)
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    bool buyEnabled = [[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsBuyBitcoin];
+    bool buyEnabled = false;//[[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsBuyBitcoin];
     switch (section) {
         case 0:
             if (self.transactions.count == 0) return 1;
@@ -578,7 +579,7 @@ static NSString *dateFormat(NSString *template)
 
         case 1:
             cell = [tableView dequeueReusableCellWithIdentifier:actionIdent];
-            bool buyEnabled = [[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsBuyBitcoin];
+            bool buyEnabled = false;//[[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsBuyBitcoin];
             long adjustedRow = !buyEnabled ? indexPath.row + 1 : indexPath.row;
             switch (adjustedRow) {
                 case 0:
@@ -701,7 +702,7 @@ static NSString *dateFormat(NSString *template)
 
         case 1:
         {
-            bool buyEnabled = [[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsBuyBitcoin];
+            bool buyEnabled = false;//[[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsBuyBitcoin];
             long adjustedRow = !buyEnabled ? indexPath.row + 1 : indexPath.row;
             switch (adjustedRow) {
                 case 0: // buy bitcoin

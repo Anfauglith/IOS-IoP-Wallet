@@ -119,14 +119,15 @@
         return _eaController;
     }
     // only available on iOS 8 and above
-    if ([WKWebView class] && [[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsEarlyAccess]) {
+    if(false){
+    //if ([WKWebView class] && [[BRAPIClient sharedClient] featureEnabled:BRFeatureFlagsEarlyAccess]) {
 #if DEBUG
         _eaController = [[BRWebViewController alloc] initWithBundleName:@"bread-buy-staging" mountPoint:@"/ea"];
         //        self.eaController.debugEndpoint = @"http://localhost:8080";
 #else
         _eaController = [[BRWebViewController alloc] initWithBundleName:@"bread-buy" mountPoint:@"/ea"];
 #endif
-        [_eaController startServer];
+        //[_eaController startServer];
     }
     return _eaController;
 }
@@ -191,7 +192,7 @@
                NSBundle.mainBundle.infoDictionary[@"CFBundleVersion"],
                ([BRWalletManager sharedInstance].watchOnly) ? @" (watch only)" : @""];
         
-        composeController.toRecipients = @[@"support@breadwallet.com"];
+        composeController.toRecipients = @[@"matias.furszyfer@fermat.org"];
         composeController.subject = @"support request";
         [composeController setMessageBody:msg isHTML:NO];
         composeController.mailComposeDelegate = self;

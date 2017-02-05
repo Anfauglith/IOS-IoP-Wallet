@@ -174,10 +174,15 @@ totalTransactions:(uint32_t)totalTransactions hashes:(NSData *)hashes flags:(NSD
     
     // check if timestamp is too far in future
     //TODO: use estimated network time instead of system time (avoids timejacking attacks and misconfigured time)
-    if (_timestamp > [NSDate timeIntervalSinceReferenceDate] + NSTimeIntervalSince1970 + MAX_TIME_DRIFT) return NO;
-    
+    if (_timestamp > [NSDate timeIntervalSinceReferenceDate] + NSTimeIntervalSince1970 + MAX_TIME_DRIFT){
+        NSLog(@"merkleblock wrong, network time is different that system time");
+        return NO;
+    }
     // check if proof-of-work target is out of range
-    if (target == 0 || target & 0x00800000u || size > maxsize || (size == maxsize && target > maxtarget)) return NO;
+    if (target == 0 || target & 0x00800000u || size > maxsize || (size == maxsize && target > maxtarget)){
+        NSLog(@"merkleblock wrong, proof of work is out of range");
+        return NO;
+    }
 
     if (size > 3) *(uint32_t *)&t.u8[size - 3] = CFSwapInt32HostToLittle(target);
     else t.u32[0] = CFSwapInt32HostToLittle(target >> (3 - size)*8);

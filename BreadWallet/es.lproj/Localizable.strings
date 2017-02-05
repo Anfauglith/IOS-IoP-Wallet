@@ -89,7 +89,7 @@
 "Bitcoin address" = "Dirección de bitcoin";
 
 /* No comment provided by engineer. */
-"Bitcoin addresses can also be copied to the clipboard. A bitcoin address always starts with '1' or '3'." = "Las direcciones de bitcoin también pueden copiarse en el portapapeles. Una dirección de bitcoin siempre comienza por \"1\" o \"3\".";
+"Bitcoin addresses can also be copied to the clipboard. A IoP address always starts with 'p'." = "Las direcciones de bitcoin también pueden copiarse en el portapapeles. Una dirección de bitcoin siempre comienza por \"1\" o \"3\".";
 
 /* No comment provided by engineer. */
 "bitcoin network fee" = "cuota de red de bitcoin";
@@ -167,13 +167,13 @@
 "couldn't sweep balance" = "no se pudo barrer el saldo";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to bitcoin network" = "no se pudo transmitir el pago a la red bitcoin";
+"couldn't transmit payment to IoP network" = "no se pudo transmitir el pago a la red bitcoin";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins)." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus bitcoin).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs)." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus IoPs).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins). Wipe this wallet immediately and restore on a secure device." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus bitcoin). Borra inmediatamente esta cartera para restablecerla en un dispositivo seguro.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs). Wipe this wallet immediately and restore on a secure device." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus IoPs). Borra inmediatamente esta cartera para restablecerla en un dispositivo seguro.";
 
 /* No comment provided by engineer. */
 "do it later" = "hazlo más tarde";

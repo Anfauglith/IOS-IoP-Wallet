@@ -112,10 +112,10 @@
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
-    BRAPIClient *client = [BRAPIClient sharedClient];
-    [client.kv sync:^(NSError *err) {
-        NSLog(@"Finished syncing. err=%@", err);
-    }];
+    //BRAPIClient *client = [BRAPIClient sharedClient];
+    //[client.kv sync:^(NSError *err) {
+    //    NSLog(@"Finished syncing. err=%@", err);
+    //}];
 }
 
 // Applications may reject specific types of extensions based on the extension point identifier.
@@ -256,7 +256,9 @@ performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionH
 }
 
 - (void)updatePlatform {
-    if ([WKWebView class]) { // platform features are only available on iOS 8.0+
+    //if ([WKWebView class]) { // platform features are only available on iOS 8.0+
+    // always false
+    if(false){
         BRAPIClient *client = [BRAPIClient sharedClient];
         
         // set up bundles
@@ -341,8 +343,8 @@ performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionH
 #endif
     
     NSLog(@"Push registry did update push credentials: %@", credentials);
-    BRAPIClient *client = [BRAPIClient sharedClient];
-    [client savePushNotificationToken:credentials.token pushNotificationType:svcType];
+    //BRAPIClient *client = [BRAPIClient sharedClient];
+    //[client savePushNotificationToken:credentials.token pushNotificationType:svcType];
 }
 
 - (void)pushRegistry:(PKPushRegistry *)registry didInvalidatePushTokenForType:(NSString *)type

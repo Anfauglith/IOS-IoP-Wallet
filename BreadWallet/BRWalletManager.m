@@ -886,6 +886,11 @@ static NSDictionary *getKeychainDict(NSString *key, NSError **error)
 {
     if (self.reachability.currentReachabilityStatus == NotReachable) return;
     
+    // this is meanwhile we don't have a server..
+    if ([tickerURL isEqualToString:@""]) {
+        return;
+    }
+    
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:tickerURL]
                                 cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10.0];
 
@@ -1010,17 +1015,21 @@ static NSDictionary *getKeychainDict(NSString *key, NSError **error)
 - (void)utxosForAddresses:(NSArray *)addresses
 completion:(void (^)(NSArray *utxos, NSArray *amounts, NSArray *scripts, NSError *error))completion
 {
-    [self utxos:UNSPENT_URL forAddresses:addresses
-    completion:^(NSArray *utxos, NSArray *amounts, NSArray *scripts, NSError *error) {
-        if (error) {
-            [self utxos:UNSPENT_FAILOVER_URL forAddresses:addresses
-            completion:^(NSArray *utxos, NSArray *amounts, NSArray *scripts, NSError *err) {
-                if (err) err = error;
-                completion(utxos, amounts, scripts, err);
-            }];
-        }
-        else completion(utxos, amounts, scripts, error);
-    }];
+    if ([UNSPENT_URL isEqualToString:@""]) {
+        NSLog(@"UNSPENT_URL is null, have to update this and point to out server..");
+    }else{
+        [self utxos:UNSPENT_URL forAddresses:addresses
+        completion:^(NSArray *utxos, NSArray *amounts, NSArray *scripts, NSError *error) {
+            if (error) {
+                [self utxos:UNSPENT_FAILOVER_URL forAddresses:addresses
+                completion:^(NSArray *utxos, NSArray *amounts, NSArray *scripts, NSError *err) {
+                    if (err) err = error;
+                    completion(utxos, amounts, scripts, err);
+                }];
+            }
+            else completion(utxos, amounts, scripts, error);
+        }];
+    }
 }
 
 - (void)utxos:(NSString *)unspentURL forAddresses:(NSArray *)addresses

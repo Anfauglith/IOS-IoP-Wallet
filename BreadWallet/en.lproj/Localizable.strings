@@ -89,7 +89,7 @@
 "Bitcoin address" = "Bitcoin address";
 
 /* No comment provided by engineer. */
-"Bitcoin addresses can also be copied to the clipboard. A bitcoin address always starts with '1' or '3'." = "Bitcoin addresses can also be copied to the clipboard. A bitcoin address always starts with '1' or '3'.";
+"IoP addresses can also be copied to the clipboard. A IoP address always starts with 'p'." = "IoP addresses can also be copied to the clipboard. A IoP address always starts with 'p'.";
 
 /* No comment provided by engineer. */
 "bitcoin network fee" = "bitcoin network fee";
@@ -179,10 +179,10 @@
 "current wallet passcode" = "current wallet passcode";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins)." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs)." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins). Wipe this wallet immediately and restore on a secure device." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins). Wipe this wallet immediately and restore on a secure device.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs). Wipe this wallet immediately and restore on a secure device." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs). Wipe this wallet immediately and restore on a secure device.";
 
 /* No comment provided by engineer. */
 "do it later" = "do it later";

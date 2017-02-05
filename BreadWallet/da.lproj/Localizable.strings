@@ -170,10 +170,10 @@
 "couldn't transmit payment to bitcoin network" = "kunne ikke sende betalingen til bitcoin-netværket";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins)." = "ENHEDENS SIKKERHED KOMPROMITTERET\nEnhver \"jailbreak'et\" app kan tilgå enhver anden apps nøglerings-data (og stjæle dine bitcoin).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs)." = "ENHEDENS SIKKERHED KOMPROMITTERET\nEnhver \"jailbreak'et\" app kan tilgå enhver anden apps nøglerings-data (og stjæle dine IoP).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins). Wipe this wallet immediately and restore on a secure device." = "ENHEDENS SIKKERHED KOMPROMITTERET\nEnhver \"jailbreak'et\" app kan tilgå enhver anden apps nøglerings-data (og stjæle dine bitcoin). Slet straks denne tegnebog og gendan den på en sikker enhed.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs). Wipe this wallet immediately and restore on a secure device." = "ENHEDENS SIKKERHED KOMPROMITTERET\nEnhver \"jailbreak'et\" app kan tilgå enhver anden apps nøglerings-data (og stjæle dine IoP). Slet straks denne tegnebog og gendan den på en sikker enhed.";
 
 /* No comment provided by engineer. */
 "do it later" = "gør det senere";

@@ -1,5 +1,5 @@
 /* No comment provided by engineer. */
-"%@ is for 'bits'. %@ = 1 bitcoin." = "%1$@ er for \"bits\". %2$@ = 1 bitcoin.";
+"%@ is for 'bits'. %@ = 1 IoP." = "%1$@ er for \"bits\". %2$@ = 1 IoP.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ har ikke tilgang til kameraet";
@@ -38,13 +38,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nEn pinkode er nødvendig for å sikre lommeboken din. Gå til innstillinger og slå på pinkode for å fortsette.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\n\nbitcoin addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADRESSE ALLEREDE BRUKT\n\nbitcoin-adresser er kun ment for engangsbruk\n\ngjenbruk reduserer personvern for både deg og mottageren og kan resultere i tap av midler om mottager ikke direkte kontrollerer adressen";
+"\nADDRESS ALREADY USED\n\nIoP addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADRESSE ALLEREDE BRUKT\n\nIoP-adresser er kun ment for engangsbruk\n\ngjenbruk reduserer personvern for både deg og mottageren og kan resultere i tap av midler om mottager ikke direkte kontrollerer adressen";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\ntillat kameratilgang i\nInnstillinger->Personvern->Kamera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your bitcoins.\n" = "\nIKKE la noen se din gjennopprettingsfrase;\nde kan sende dine bitcoin.\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your IoP.\n" = "\nIKKE la noen se din gjennopprettingsfrase;\nde kan sende dine IoP.\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nIKKE TA et skjermbilde\nSkjermbilder er synlige for andre apper\nog enheter.\n";
@@ -89,7 +89,7 @@
 "Bitcoin address" = "Bitcoin-adresse";
 
 /* No comment provided by engineer. */
-"Bitcoin addresses can also be copied to the clipboard. A bitcoin address always starts with '1' or '3'." = "Bitcoin-adresser kan også kopieres til utklippstavlen. En Bitcoin-adresse starter alltid med '1' eller '3'.";
+"IoP addresses can also be copied to the clipboard. A IoP address always starts with 'p'." = "IoP-adresser kan også kopieres til utklippstavlen. En IoP-adresse starter alltid med 'p'.";
 
 /* No comment provided by engineer. */
 "bitcoin network fee" = "bitcoin nettverksavgift";
@@ -170,7 +170,7 @@
 "couldn't transmit payment to bitcoin network" = "kunne ikke kringkaste betaling til Bitcoin-nettverket";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins)." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine bitcoin).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs)." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine bitcoin).";
 
 /* No comment provided by engineer. */
 "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins). Wipe this wallet immediately and restore on a secure device." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine bitcoin).";

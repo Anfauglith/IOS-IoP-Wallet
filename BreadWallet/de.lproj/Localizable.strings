@@ -89,7 +89,7 @@
 "Bitcoin address" = "Bitcoin-Adresse";
 
 /* No comment provided by engineer. */
-"Bitcoin addresses can also be copied to the clipboard. A bitcoin address always starts with '1' or '3'." = "Bitcoin-Adressen können auch in die Zwischenablage kopiert werden. Eine Bitcoin-Adresse beginnt immer mit '1' oder '3'.";
+"IoP addresses can also be copied to the clipboard. A IoP address always starts with 'p'." = "IoP-Adressen können auch in die Zwischenablage kopiert werden. Eine IoP-Adresse beginnt immer mit 'p'.";
 
 /* No comment provided by engineer. */
 "bitcoin network fee" = "Transaktionsgebühr";
@@ -173,16 +173,16 @@
 "couldn't sweep balance" = "Guthaben konnte nicht übertragen werden";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to bitcoin network" = "Zahlung konnte nicht an das Bitcoin-Netzwerk übermittelt werden";
+"couldn't transmit payment to IoP network" = "Zahlung konnte nicht an das Bitcoin-Netzwerk übermittelt werden";
 
 /* No comment provided by engineer. */
 "current wallet passcode" = "Aktueller Wallet Zugangscode";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins)." = "GERÄTESICHERHEIT KOMPROMITTIERT\nJede 'Jailbreak'-App kann auf die Schlüsselbund-Daten jeder anderen App zugreifen (und so Ihre Bitcoins stehlen).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs)." = "GERÄTESICHERHEIT KOMPROMITTIERT\nJede 'Jailbreak'-App kann auf die Schlüsselbund-Daten jeder anderen App zugreifen (und so Ihre IoPs stehlen).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your bitcoins). Wipe this wallet immediately and restore on a secure device." = "GERÄTESICHERHEIT KOMPROMITTIERT\nJede 'Jailbreak'-App kann auf die Schlüsselbund-Daten anderer Apps zugreifen (und so Ihre Bitcoins stehlen). Löschen Sie dieses Wallet umgehend und stellen Sie dieses auf einem sicheren Gerät wieder her.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your IoPs). Wipe this wallet immediately and restore on a secure device." = "GERÄTESICHERHEIT KOMPROMITTIERT\nJede 'Jailbreak'-App kann auf die Schlüsselbund-Daten anderer Apps zugreifen (und so Ihre IoPs stehlen). Löschen Sie dieses Wallet umgehend und stellen Sie dieses auf einem sicheren Gerät wieder her.";
 
 /* No comment provided by engineer. */
 "do it later" = "später";
